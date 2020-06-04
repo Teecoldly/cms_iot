@@ -8,7 +8,7 @@
 #include <HTTPClient.h>
 #include <SocketIoClient.h>
 
-#define cms_iot_key "0edebf5c02b29"
+#define cms_iot_key "key on web site"//34.87.72.130
 
 /* SPS30 CONNECTION
   RED 5V
@@ -59,8 +59,9 @@ void Errorloop(char *mess, uint8_t r);
 void ErrtoMess(char *mess, uint8_t r);
 int tempp;
 float humi;
-const char* ssid = "sevirach_2.4G";   
-const char* password =  "58993844";
+// wifi setting
+const char* ssid = "wifiname 2.4g";   
+const char* password =  "password";
 
 
 SPS30 sps30;
